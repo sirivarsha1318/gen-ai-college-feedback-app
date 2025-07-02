@@ -1,7 +1,9 @@
-streamlit>=1.25.0
-pandas==2.3.0
-numpy==2.3.1
-scikit-learn==1.7.0
-plotly==6.2.0
-torch==2.5.1
-ibm-watson-machine-learning==1.0.364
+# Minimal requirements for deployment
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.24.0
+plotly>=5.15.0
+ibm-watson-machine-learning>=1.0.335
+torch>=2.0.0
+tokenizers>=0.13.0
+python-dateutil>=2.8.0

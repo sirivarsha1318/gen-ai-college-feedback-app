@@ -1,8 +1,7 @@
 streamlit
-pandas
-numpy
-scikit-learn
-plotly
-ibm-watson-machine-learning>=1.0.297
-torch==2.2.2+cpu
---find-links https://download.pytorch.org/whl/torch_stable.html
+pandas==2.3.0
+numpy==2.3.1
+scikit-learn==1.7.0
+plotly==6.2.0
+ibm-watson-machine-learning==1.0.364
+torch==2.5.1

@@ -1,7 +1,7 @@
-streamlit
+streamlit>=1.25.0
 pandas==2.3.0
 numpy==2.3.1
 scikit-learn==1.7.0
 plotly==6.2.0
-ibm-watson-machine-learning==1.0.364
 torch==2.5.1
+ibm-watson-machine-learning==1.0.364

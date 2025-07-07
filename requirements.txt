@@ -1,12 +1,11 @@
-# Core
-streamlit==1.28.2
-pandas==1.5.3
-numpy==1.23.5
-plotly==5.15.0
-torch==2.0.1
+# Direct PyTorch CPU-only wheel for Python 3.10 (Streamlit Cloud uses Linux)
+https://download.pytorch.org/whl/cpu/torch-2.0.1%2Bcpu-cp310-cp310-linux_x86_64.whl
 
-# IBM Watson Machine Learning
-ibm-watson-machine-learning==1.0.319
+# Streamlit and Data Processing
+streamlit
+pandas
+numpy
+plotly
 
-# Optional but safe versions
-scikit-learn==1.2.2
+# IBM Watson Machine Learning SDK
+ibm-watson-machine-learning

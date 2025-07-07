@@ -1,11 +1,12 @@
-# Direct PyTorch CPU-only wheel for Python 3.10 (Streamlit Cloud uses Linux)
-https://download.pytorch.org/whl/cpu/torch-2.0.1%2Bcpu-cp310-cp310-linux_x86_64.whl
-
-# Streamlit and Data Processing
+# Core dependencies
 streamlit
 pandas
 numpy
 plotly
 
-# IBM Watson Machine Learning SDK
+# CPU-only PyTorch (auto-detect platform)
+torch==2.0.1+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# IBM Watson ML SDK
 ibm-watson-machine-learning
